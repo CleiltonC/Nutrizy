@@ -11,7 +11,7 @@ import SwiftUI
 struct NutrizyApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            Home()
         }
     }
 }

@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4464777B2A2A6A6D00F65548 /* NutrizyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4464777A2A2A6A6D00F65548 /* NutrizyApp.swift */; };
-		4464777D2A2A6A6D00F65548 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4464777C2A2A6A6D00F65548 /* ContentView.swift */; };
+		4464777D2A2A6A6D00F65548 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4464777C2A2A6A6D00F65548 /* Home.swift */; };
 		4464777F2A2A6A6D00F65548 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4464777E2A2A6A6D00F65548 /* Assets.xcassets */; };
 		446477822A2A6A6D00F65548 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 446477812A2A6A6D00F65548 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -16,7 +16,7 @@
 /* Begin PBXFileReference section */
 		446477772A2A6A6D00F65548 /* Nutrizy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nutrizy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4464777A2A2A6A6D00F65548 /* NutrizyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutrizyApp.swift; sourceTree = "<group>"; };
-		4464777C2A2A6A6D00F65548 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4464777C2A2A6A6D00F65548 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		4464777E2A2A6A6D00F65548 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		446477812A2A6A6D00F65548 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -51,8 +51,8 @@
 		446477792A2A6A6D00F65548 /* Nutrizy */ = {
 			isa = PBXGroup;
 			children = (
+				446477882A2A6A7F00F65548 /* Views */,
 				4464777A2A2A6A6D00F65548 /* NutrizyApp.swift */,
-				4464777C2A2A6A6D00F65548 /* ContentView.swift */,
 				4464777E2A2A6A6D00F65548 /* Assets.xcassets */,
 				446477802A2A6A6D00F65548 /* Preview Content */,
 			);
@@ -65,6 +65,14 @@
 				446477812A2A6A6D00F65548 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		446477882A2A6A7F00F65548 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4464777C2A2A6A6D00F65548 /* Home.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +145,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4464777D2A2A6A6D00F65548 /* ContentView.swift in Sources */,
+				4464777D2A2A6A6D00F65548 /* Home.swift in Sources */,
 				4464777B2A2A6A6D00F65548 /* NutrizyApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
