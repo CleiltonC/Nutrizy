@@ -11,7 +11,9 @@ import SwiftUI
 struct NutrizyApp: App {
     var body: some Scene {
         WindowGroup {
-            Home()
+            NavigationStack{
+                Home()
+            }
         }
     }
 }
