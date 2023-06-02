@@ -24,7 +24,7 @@ struct Home: View {
             }
             
             ScrollView{
-                SectionView()
+                SectionView(section: "Café da manhã")
                 SectionView(section: "Almoço")
                 SectionView(section: "Lanche")
                 //            .border(.green)
@@ -86,40 +86,4 @@ struct SearchBar: View {
     }
 }
 
-struct SectionView: View {
-    var section: String = "Café da Manhã"
-    
-    var body: some View {
-        VStack(alignment: .leading){
-            Text(section)
-                .font(.title2)
-            //                    .border(.red)
-            
-            ScrollView(.horizontal, showsIndicators: false) {
-                HStack{
-                    VStack {
-                        Image("foto5")
-                        Text("Prato 1")
-                    }
-                    VStack {
-                        Image("foto5")
-                        Text("Prato 1")
-                    }
-                    VStack {
-                        Image("foto5")
-                        Text("Prato 1")
-                    }
-                    VStack {
-                        Image("foto5")
-                        Text("Prato 1")
-                    }
-                }
-                .padding(8)
-            }
-            .background(Color.white)
-            .cornerRadius(20)
-            .shadow(radius: 1)
-        }
-        .padding(.vertical, 8)
-    }
-}
+
