@@ -7,6 +7,8 @@
 
 import SwiftUI
 
+// Make Card View
+
 struct Card: View {
     var image: String
     var plate: String
