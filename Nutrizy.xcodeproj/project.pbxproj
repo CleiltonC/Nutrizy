@@ -11,6 +11,8 @@
 		4464777D2A2A6A6D00F65548 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4464777C2A2A6A6D00F65548 /* Home.swift */; };
 		4464777F2A2A6A6D00F65548 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4464777E2A2A6A6D00F65548 /* Assets.xcassets */; };
 		446477822A2A6A6D00F65548 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 446477812A2A6A6D00F65548 /* Preview Assets.xcassets */; };
+		4464778A2A2A6F6800F65548 /* SectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446477892A2A6F6800F65548 /* SectionView.swift */; };
+		4464778C2A2A718400F65548 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4464778B2A2A718400F65548 /* Card.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		4464777C2A2A6A6D00F65548 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		4464777E2A2A6A6D00F65548 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		446477812A2A6A6D00F65548 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		446477892A2A6F6800F65548 /* SectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionView.swift; sourceTree = "<group>"; };
+		4464778B2A2A718400F65548 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +75,8 @@
 			isa = PBXGroup;
 			children = (
 				4464777C2A2A6A6D00F65548 /* Home.swift */,
+				446477892A2A6F6800F65548 /* SectionView.swift */,
+				4464778B2A2A718400F65548 /* Card.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -147,6 +153,8 @@
 			files = (
 				4464777D2A2A6A6D00F65548 /* Home.swift in Sources */,
 				4464777B2A2A6A6D00F65548 /* NutrizyApp.swift in Sources */,
+				4464778A2A2A6F6800F65548 /* SectionView.swift in Sources */,
+				4464778C2A2A718400F65548 /* Card.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
