@@ -13,6 +13,8 @@
 		446477822A2A6A6D00F65548 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 446477812A2A6A6D00F65548 /* Preview Assets.xcassets */; };
 		4464778A2A2A6F6800F65548 /* SectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446477892A2A6F6800F65548 /* SectionView.swift */; };
 		4464778C2A2A718400F65548 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4464778B2A2A718400F65548 /* Card.swift */; };
+		CE26C6CA2A30FE7F005FFC2D /* Favorites.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE26C6C92A30FE7F005FFC2D /* Favorites.swift */; };
+		CE26C6CC2A311984005FFC2D /* CardFavorite.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE26C6CB2A311984005FFC2D /* CardFavorite.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,8 @@
 		446477812A2A6A6D00F65548 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		446477892A2A6F6800F65548 /* SectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionView.swift; sourceTree = "<group>"; };
 		4464778B2A2A718400F65548 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		CE26C6C92A30FE7F005FFC2D /* Favorites.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Favorites.swift; sourceTree = "<group>"; };
+		CE26C6CB2A311984005FFC2D /* CardFavorite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardFavorite.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +81,8 @@
 				4464777C2A2A6A6D00F65548 /* Home.swift */,
 				446477892A2A6F6800F65548 /* SectionView.swift */,
 				4464778B2A2A718400F65548 /* Card.swift */,
+				CE26C6C92A30FE7F005FFC2D /* Favorites.swift */,
+				CE26C6CB2A311984005FFC2D /* CardFavorite.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -154,7 +160,9 @@
 				4464777D2A2A6A6D00F65548 /* Home.swift in Sources */,
 				4464777B2A2A6A6D00F65548 /* NutrizyApp.swift in Sources */,
 				4464778A2A2A6F6800F65548 /* SectionView.swift in Sources */,
+				CE26C6CA2A30FE7F005FFC2D /* Favorites.swift in Sources */,
 				4464778C2A2A718400F65548 /* Card.swift in Sources */,
+				CE26C6CC2A311984005FFC2D /* CardFavorite.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
