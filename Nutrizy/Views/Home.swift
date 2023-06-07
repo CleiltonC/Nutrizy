@@ -32,7 +32,7 @@ struct Home: View {
             HStack{
                 Image(systemName: "homekit")
                 Image(systemName: "homekit")
-                Image(systemName: "homekit")
+                Image(systemName: "heart.fill")
             }
             .background(Color.white)
             
