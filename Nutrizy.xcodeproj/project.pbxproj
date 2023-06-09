@@ -15,7 +15,8 @@
 		4464778C2A2A718400F65548 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4464778B2A2A718400F65548 /* Card.swift */; };
 		CE26C6CA2A30FE7F005FFC2D /* Favorites.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE26C6C92A30FE7F005FFC2D /* Favorites.swift */; };
 		CE26C6CC2A311984005FFC2D /* CardFavorite.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE26C6CB2A311984005FFC2D /* CardFavorite.swift */; };
-		CEE5FE9E2A2FA6710022FD6D /* MealView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE5FE9D2A2FA6710022FD6D /* MealView.swift */; };
+		CE8BDF062A33B3DB00EA704A /* TabNavView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8BDF052A33B3DB00EA704A /* TabNavView.swift */; };
+		CEBE8D652A33A58E00DC2921 /* ReplaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBE8D642A33A58E00DC2921 /* ReplaceView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,9 +27,10 @@
 		446477812A2A6A6D00F65548 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		446477892A2A6F6800F65548 /* SectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionView.swift; sourceTree = "<group>"; };
 		4464778B2A2A718400F65548 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
-		CEE5FE9D2A2FA6710022FD6D /* MealView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealView.swift; sourceTree = "<group>"; };
 		CE26C6C92A30FE7F005FFC2D /* Favorites.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Favorites.swift; sourceTree = "<group>"; };
 		CE26C6CB2A311984005FFC2D /* CardFavorite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardFavorite.swift; sourceTree = "<group>"; };
+		CE8BDF052A33B3DB00EA704A /* TabNavView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabNavView.swift; sourceTree = "<group>"; };
+		CEBE8D642A33A58E00DC2921 /* ReplaceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReplaceView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,22 +82,15 @@
 		446477882A2A6A7F00F65548 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				CEE5FE992A2FA5D10022FD6D /* View Meal */,
 				4464777C2A2A6A6D00F65548 /* Home.swift */,
+				CE8BDF052A33B3DB00EA704A /* TabNavView.swift */,
 				446477892A2A6F6800F65548 /* SectionView.swift */,
 				4464778B2A2A718400F65548 /* Card.swift */,
 				CE26C6C92A30FE7F005FFC2D /* Favorites.swift */,
 				CE26C6CB2A311984005FFC2D /* CardFavorite.swift */,
+				CEBE8D642A33A58E00DC2921 /* ReplaceView.swift */,
 			);
 			path = Views;
-			sourceTree = "<group>";
-		};
-		CEE5FE992A2FA5D10022FD6D /* View Meal */ = {
-			isa = PBXGroup;
-			children = (
-				CEE5FE9D2A2FA6710022FD6D /* MealView.swift */,
-			);
-			path = "View Meal";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -168,10 +163,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEBE8D652A33A58E00DC2921 /* ReplaceView.swift in Sources */,
 				4464777D2A2A6A6D00F65548 /* Home.swift in Sources */,
 				4464777B2A2A6A6D00F65548 /* NutrizyApp.swift in Sources */,
-				CEE5FE9E2A2FA6710022FD6D /* MealView.swift in Sources */,
 				4464778A2A2A6F6800F65548 /* SectionView.swift in Sources */,
+				CE8BDF062A33B3DB00EA704A /* TabNavView.swift in Sources */,
 				CE26C6CA2A30FE7F005FFC2D /* Favorites.swift in Sources */,
 				4464778C2A2A718400F65548 /* Card.swift in Sources */,
 				CE26C6CC2A311984005FFC2D /* CardFavorite.swift in Sources */,

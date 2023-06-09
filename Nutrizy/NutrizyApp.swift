@@ -12,8 +12,7 @@ struct NutrizyApp: App {
     var body: some Scene {
         WindowGroup {
             NavigationStack{
-                Home()
-            }
+                TabNavView()            }
         }
     }
 }
