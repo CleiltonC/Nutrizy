@@ -13,7 +13,6 @@ struct NutrizyApp: App {
         WindowGroup {
             NavigationStack{
                 Home()
-                Favorites()
             }
         }
     }
