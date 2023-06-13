@@ -29,12 +29,12 @@ struct Home: View {
             }
             .border(.red)
             
-            HStack{
-                Image(systemName: "homekit")
-                Image(systemName: "homekit")
-                Image(systemName: "heart.fill")
-            }
-            .background(Color.white)
+//            HStack{
+//                Image(systemName: "homekit")
+//                Image(systemName: "homekit")
+//                Image(systemName: "heart.fill")
+//            }
+//            .background(Color.white)
             
             Spacer()
             
