@@ -15,6 +15,8 @@
 		4464778C2A2A718400F65548 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4464778B2A2A718400F65548 /* Card.swift */; };
 		CE26C6CA2A30FE7F005FFC2D /* Favorites.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE26C6C92A30FE7F005FFC2D /* Favorites.swift */; };
 		CE26C6CC2A311984005FFC2D /* CardFavorite.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE26C6CB2A311984005FFC2D /* CardFavorite.swift */; };
+		CE8BDF062A33B3DB00EA704A /* TabNavView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8BDF052A33B3DB00EA704A /* TabNavView.swift */; };
+		CEBE8D652A33A58E00DC2921 /* ReplaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBE8D642A33A58E00DC2921 /* ReplaceView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +29,8 @@
 		4464778B2A2A718400F65548 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		CE26C6C92A30FE7F005FFC2D /* Favorites.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Favorites.swift; sourceTree = "<group>"; };
 		CE26C6CB2A311984005FFC2D /* CardFavorite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardFavorite.swift; sourceTree = "<group>"; };
+		CE8BDF052A33B3DB00EA704A /* TabNavView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabNavView.swift; sourceTree = "<group>"; };
+		CEBE8D642A33A58E00DC2921 /* ReplaceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReplaceView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,10 +83,12 @@
 			isa = PBXGroup;
 			children = (
 				4464777C2A2A6A6D00F65548 /* Home.swift */,
+				CE8BDF052A33B3DB00EA704A /* TabNavView.swift */,
 				446477892A2A6F6800F65548 /* SectionView.swift */,
 				4464778B2A2A718400F65548 /* Card.swift */,
 				CE26C6C92A30FE7F005FFC2D /* Favorites.swift */,
 				CE26C6CB2A311984005FFC2D /* CardFavorite.swift */,
+				CEBE8D642A33A58E00DC2921 /* ReplaceView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -157,9 +163,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEBE8D652A33A58E00DC2921 /* ReplaceView.swift in Sources */,
 				4464777D2A2A6A6D00F65548 /* Home.swift in Sources */,
 				4464777B2A2A6A6D00F65548 /* NutrizyApp.swift in Sources */,
 				4464778A2A2A6F6800F65548 /* SectionView.swift in Sources */,
+				CE8BDF062A33B3DB00EA704A /* TabNavView.swift in Sources */,
 				CE26C6CA2A30FE7F005FFC2D /* Favorites.swift in Sources */,
 				4464778C2A2A718400F65548 /* Card.swift in Sources */,
 				CE26C6CC2A311984005FFC2D /* CardFavorite.swift in Sources */,
