@@ -12,13 +12,20 @@ struct TabNavView: View {
         TabView{
             Home()
                 .tabItem{
-                    Label("Home", systemImage: "house.fill")
+                    Label("Refeições", systemImage: "fork.knife")
+                }
+            ReplaceView()
+                .tabItem{
+                    Label("Troca", systemImage: "arrow.triangle.2.circlepath")
+                }
+            SearchView()
+                .tabItem{
+                    Label("Buscar", systemImage: "magnifyingglass")
                 }
             Favorites()
                 .tabItem{
-                    Label("Favoritos", systemImage: "heart")
+                    Label("Salvos", systemImage: "bookmark")
                 }
-            
         }
     }
 }
@@ -26,5 +33,8 @@ struct TabNavView: View {
 struct TabNavView_Previews: PreviewProvider {
     static var previews: some View {
         TabNavView()
+            .preferredColorScheme(.dark)
+        TabNavView()
+            .preferredColorScheme(.light)
     }
 }
