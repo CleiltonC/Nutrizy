@@ -124,7 +124,7 @@ struct Favorites: View {
         .toolbarColorScheme(.dark, for: .navigationBar)
         .toolbarBackground(Color(red: 0.250980, green: 0.211764, blue: 0.643137, opacity: 1.0) , for: .navigationBar)
         .toolbarBackground(.visible, for: .navigationBar)
-        .background(Color(red: 0.968627, green: 0.964706, blue: 0.980392, opacity: 1.0))
+//        .background(Color(red: 0.968627, green: 0.964706, blue: 0.980392, opacity: 1.0))
     }
 }
 
