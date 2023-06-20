@@ -11,9 +11,13 @@ struct SectionView: View {
     var section: String
     
     var body: some View {
-        VStack(alignment: .leading){
+        VStack(alignment: .leading, spacing: 0.0){
             Text(section)
-                .font(.title2)
+                .font(
+                    .system(size: 16)
+                    .weight(.medium)
+                )
+                .padding(.leading, 16)
             //                    .border(.red)
             
             ScrollView(.horizontal, showsIndicators: false) {
@@ -24,10 +28,10 @@ struct SectionView: View {
                     Card(image: "foto5", plate: "prato4")
                     
                 }
-                .padding(8)
+                .padding(.vertical, 6)
             }
-            .background(Color.white)
-            .cornerRadius(20)
+//            .background(Color.white)
+//            .cornerRadius(20)
             .shadow(radius: 1)
         }
         .padding(.vertical, 8)
@@ -39,5 +43,3 @@ struct SectionView_Previews: PreviewProvider {
         SectionView(section: "Café da manhã")
     }
 }
-
-
