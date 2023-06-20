@@ -29,15 +29,9 @@ import SwiftUI
 
 @main
 struct NutrizyApp: App {
-    @State var texto: String = "text"
     var body: some Scene {
         WindowGroup {
-            NavigationStack{
-                TabNavView()
-                
-            }
-            
-            .searchable(text: $texto)
+            TabNavView()
         }
     }
 }

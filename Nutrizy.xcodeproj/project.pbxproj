@@ -7,11 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4417437A2A421FC500237C76 /* SectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 441743792A421FC500237C76 /* SectionView.swift */; };
 		4464777B2A2A6A6D00F65548 /* NutrizyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4464777A2A2A6A6D00F65548 /* NutrizyApp.swift */; };
-		4464777D2A2A6A6D00F65548 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4464777C2A2A6A6D00F65548 /* Home.swift */; };
+		4464777D2A2A6A6D00F65548 /* Meals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4464777C2A2A6A6D00F65548 /* Meals.swift */; };
 		4464777F2A2A6A6D00F65548 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4464777E2A2A6A6D00F65548 /* Assets.xcassets */; };
 		446477822A2A6A6D00F65548 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 446477812A2A6A6D00F65548 /* Preview Assets.xcassets */; };
-		4464778A2A2A6F6800F65548 /* SectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446477892A2A6F6800F65548 /* SectionView.swift */; };
+		4464778A2A2A6F6800F65548 /* SectionGenerateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446477892A2A6F6800F65548 /* SectionGenerateView.swift */; };
 		4464778C2A2A718400F65548 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4464778B2A2A718400F65548 /* Card.swift */; };
 		44D5797F2A38FF9300D5CCD7 /* LayoutOrganizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D5797E2A38FF9300D5CCD7 /* LayoutOrganizer.swift */; };
 		CE26C6CA2A30FE7F005FFC2D /* Favorites.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE26C6C92A30FE7F005FFC2D /* Favorites.swift */; };
@@ -23,12 +24,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		441743792A421FC500237C76 /* SectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionView.swift; sourceTree = "<group>"; };
 		446477772A2A6A6D00F65548 /* Nutrizy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nutrizy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4464777A2A2A6A6D00F65548 /* NutrizyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutrizyApp.swift; sourceTree = "<group>"; };
-		4464777C2A2A6A6D00F65548 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		4464777C2A2A6A6D00F65548 /* Meals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meals.swift; sourceTree = "<group>"; };
 		4464777E2A2A6A6D00F65548 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		446477812A2A6A6D00F65548 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		446477892A2A6F6800F65548 /* SectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionView.swift; sourceTree = "<group>"; };
+		446477892A2A6F6800F65548 /* SectionGenerateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionGenerateView.swift; sourceTree = "<group>"; };
 		4464778B2A2A718400F65548 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		44D5797E2A38FF9300D5CCD7 /* LayoutOrganizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutOrganizer.swift; sourceTree = "<group>"; };
 		CE26C6C92A30FE7F005FFC2D /* Favorites.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Favorites.swift; sourceTree = "<group>"; };
@@ -89,15 +91,16 @@
 		446477882A2A6A7F00F65548 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				4464777C2A2A6A6D00F65548 /* Home.swift */,
+				4464777C2A2A6A6D00F65548 /* Meals.swift */,
 				CE8BDF052A33B3DB00EA704A /* TabNavView.swift */,
-				446477892A2A6F6800F65548 /* SectionView.swift */,
+				446477892A2A6F6800F65548 /* SectionGenerateView.swift */,
 				4464778B2A2A718400F65548 /* Card.swift */,
 				CE26C6C92A30FE7F005FFC2D /* Favorites.swift */,
 				CE26C6CB2A311984005FFC2D /* CardFavorite.swift */,
 				CEBE8D642A33A58E00DC2921 /* ReplaceView.swift */,
 				44D5797E2A38FF9300D5CCD7 /* LayoutOrganizer.swift */,
 				CEA6C7AD2A3CE45400E43A4D /* SearchView.swift */,
+				441743792A421FC500237C76 /* SectionView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -182,12 +185,13 @@
 			files = (
 				CEBE8D652A33A58E00DC2921 /* ReplaceView.swift in Sources */,
 				CEA6C7AE2A3CE45400E43A4D /* SearchView.swift in Sources */,
-				4464777D2A2A6A6D00F65548 /* Home.swift in Sources */,
+				4464777D2A2A6A6D00F65548 /* Meals.swift in Sources */,
 				CEA6C7B12A3CE6EA00E43A4D /* Color.swift in Sources */,
 				4464777B2A2A6A6D00F65548 /* NutrizyApp.swift in Sources */,
-				4464778A2A2A6F6800F65548 /* SectionView.swift in Sources */,
+				4464778A2A2A6F6800F65548 /* SectionGenerateView.swift in Sources */,
 				CE8BDF062A33B3DB00EA704A /* TabNavView.swift in Sources */,
 				CE26C6CA2A30FE7F005FFC2D /* Favorites.swift in Sources */,
+				4417437A2A421FC500237C76 /* SectionView.swift in Sources */,
 				44D5797F2A38FF9300D5CCD7 /* LayoutOrganizer.swift in Sources */,
 				4464778C2A2A718400F65548 /* Card.swift in Sources */,
 				CE26C6CC2A311984005FFC2D /* CardFavorite.swift in Sources */,
