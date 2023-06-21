@@ -98,10 +98,6 @@ struct Meals: View {
     var body: some View {
         NavigationStack{
             VStack {
-                //            SearchBar()
-                //            NavigationStack{
-                //
-                //            }
                 
                 ScrollView{
                     SectionGenerateView(section: "Café da manhã")
@@ -110,14 +106,6 @@ struct Meals: View {
                     //            .border(.green)
                 }
                 .padding(.leading, 16)
-                //            .border(.red)
-                
-                //            HStack{
-                //                Image(systemName: "homekit")
-                //                Image(systemName: "homekit")
-                //                Image(systemName: "heart.fill")
-                //            }
-                //            .background(Color.white)
                 
                 Spacer()
                 
@@ -126,7 +114,7 @@ struct Meals: View {
             }
             .padding(.vertical)
             
-            .navigationBarTitle("NUTRIZY", displayMode: .inline)
+            .navigationBarItems(leading: Text("Olá, Alexandre Florenço").font(.sfPro(size: 18, weight: .semibold)), trailing: Image(systemName: "person"))
             .toolbarColorScheme(.dark, for: .navigationBar)
             .toolbarBackground(Color(red: 0.250980, green: 0.211764, blue: 0.643137, opacity: 1.0) , for: .navigationBar)
             .background(.background)

@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4412FDE52A43773300D9ADEE /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4412FDE42A43773300D9ADEE /* ProfileView.swift */; };
+		4412FDED2A438FED00D9ADEE /* SF-Pro-Text-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4412FDE92A438D7D00D9ADEE /* SF-Pro-Text-Bold.otf */; };
+		4412FDEE2A438FED00D9ADEE /* SF-Pro-Text-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4412FDEC2A438D7D00D9ADEE /* SF-Pro-Text-Regular.otf */; };
+		4412FDEF2A438FED00D9ADEE /* SF-Pro-Text-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4412FDEA2A438D7D00D9ADEE /* SF-Pro-Text-Semibold.otf */; };
+		4412FDF02A438FED00D9ADEE /* SF-Pro-Text-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4412FDE82A438D7D00D9ADEE /* SF-Pro-Text-Light.otf */; };
+		4412FDF12A438FED00D9ADEE /* SF-Pro-Text-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4412FDEB2A438D7D00D9ADEE /* SF-Pro-Text-Medium.otf */; };
 		4417437A2A421FC500237C76 /* SectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 441743792A421FC500237C76 /* SectionView.swift */; };
 		4464777B2A2A6A6D00F65548 /* NutrizyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4464777A2A2A6A6D00F65548 /* NutrizyApp.swift */; };
 		4464777D2A2A6A6D00F65548 /* Meals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4464777C2A2A6A6D00F65548 /* Meals.swift */; };
@@ -24,6 +30,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4412FDE42A43773300D9ADEE /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		4412FDE62A4387F800D9ADEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		4412FDE82A438D7D00D9ADEE /* SF-Pro-Text-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SF-Pro-Text-Light.otf"; path = "../../../../../../Downloads/SF-Pro-Text-Light.otf"; sourceTree = "<group>"; };
+		4412FDE92A438D7D00D9ADEE /* SF-Pro-Text-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SF-Pro-Text-Bold.otf"; path = "../../../../../../Downloads/SF-Pro-Text-Bold.otf"; sourceTree = "<group>"; };
+		4412FDEA2A438D7D00D9ADEE /* SF-Pro-Text-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SF-Pro-Text-Semibold.otf"; path = "../../../../../../Downloads/SF-Pro-Text-Semibold.otf"; sourceTree = "<group>"; };
+		4412FDEB2A438D7D00D9ADEE /* SF-Pro-Text-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SF-Pro-Text-Medium.otf"; path = "../../../../../../Downloads/SF-Pro-Text-Medium.otf"; sourceTree = "<group>"; };
+		4412FDEC2A438D7D00D9ADEE /* SF-Pro-Text-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SF-Pro-Text-Regular.otf"; path = "../../../../../../Downloads/SF-Pro-Text-Regular.otf"; sourceTree = "<group>"; };
 		441743792A421FC500237C76 /* SectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionView.swift; sourceTree = "<group>"; };
 		446477772A2A6A6D00F65548 /* Nutrizy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nutrizy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4464777A2A2A6A6D00F65548 /* NutrizyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutrizyApp.swift; sourceTree = "<group>"; };
@@ -52,6 +65,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4412FDE72A438D3000D9ADEE /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				4412FDE92A438D7D00D9ADEE /* SF-Pro-Text-Bold.otf */,
+				4412FDE82A438D7D00D9ADEE /* SF-Pro-Text-Light.otf */,
+				4412FDEB2A438D7D00D9ADEE /* SF-Pro-Text-Medium.otf */,
+				4412FDEC2A438D7D00D9ADEE /* SF-Pro-Text-Regular.otf */,
+				4412FDEA2A438D7D00D9ADEE /* SF-Pro-Text-Semibold.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		4464776E2A2A6A6D00F65548 = {
 			isa = PBXGroup;
 			children = (
@@ -71,6 +96,8 @@
 		446477792A2A6A6D00F65548 /* Nutrizy */ = {
 			isa = PBXGroup;
 			children = (
+				4412FDE72A438D3000D9ADEE /* Fonts */,
+				4412FDE62A4387F800D9ADEE /* Info.plist */,
 				CEA6C7AF2A3CE66A00E43A4D /* Extensions */,
 				446477882A2A6A7F00F65548 /* Views */,
 				4464777A2A2A6A6D00F65548 /* NutrizyApp.swift */,
@@ -101,6 +128,7 @@
 				44D5797E2A38FF9300D5CCD7 /* LayoutOrganizer.swift */,
 				CEA6C7AD2A3CE45400E43A4D /* SearchView.swift */,
 				441743792A421FC500237C76 /* SectionView.swift */,
+				4412FDE42A43773300D9ADEE /* ProfileView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -173,6 +201,11 @@
 			files = (
 				446477822A2A6A6D00F65548 /* Preview Assets.xcassets in Resources */,
 				4464777F2A2A6A6D00F65548 /* Assets.xcassets in Resources */,
+				4412FDF02A438FED00D9ADEE /* SF-Pro-Text-Light.otf in Resources */,
+				4412FDEF2A438FED00D9ADEE /* SF-Pro-Text-Semibold.otf in Resources */,
+				4412FDEE2A438FED00D9ADEE /* SF-Pro-Text-Regular.otf in Resources */,
+				4412FDF12A438FED00D9ADEE /* SF-Pro-Text-Medium.otf in Resources */,
+				4412FDED2A438FED00D9ADEE /* SF-Pro-Text-Bold.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -184,6 +217,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CEBE8D652A33A58E00DC2921 /* ReplaceView.swift in Sources */,
+				4412FDE52A43773300D9ADEE /* ProfileView.swift in Sources */,
 				CEA6C7AE2A3CE45400E43A4D /* SearchView.swift in Sources */,
 				4464777D2A2A6A6D00F65548 /* Meals.swift in Sources */,
 				CEA6C7B12A3CE6EA00E43A4D /* Color.swift in Sources */,
@@ -325,6 +359,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Nutrizy/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Nutrizy/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -353,6 +388,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Nutrizy/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Nutrizy/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
