@@ -23,7 +23,7 @@ struct LayoutOrganizer<Content: View>: View {
         if isOneArgument {
             VStack { content() }
         } else {
-            HStack { content() }
+            HStack(spacing: 15.0) { content() }
         }
     }
     

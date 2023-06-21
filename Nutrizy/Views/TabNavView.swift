@@ -10,7 +10,7 @@ import SwiftUI
 struct TabNavView: View {
     var body: some View {
         TabView{
-            Home()
+            Meals()
                 .tabItem{
                     Label("Refeições", systemImage: "fork.knife")
                 }

@@ -62,17 +62,28 @@ import SwiftUI
 struct Card: View {
     var image: String
     var plate: String
+    var description: String = ""
+    var layout: Bool = true
+    var cardWidth: CGFloat = 137
+    var cardHeight: CGFloat = 137
+    
     var body: some View {
-        LayoutOrganizer(isOneArgument: true) {
+        LayoutOrganizer(isOneArgument: layout) {
             Image(image)
-            Text(plate)
+                .resizable()
+                .frame(width: cardWidth, height: cardHeight)
+            VStack(alignment: .leading) {
+                Text(plate)
+                    .font(.system(size: 14))
+            Text(description)
+                .font(.system(size: 12))
+            }
         }
-        .padding(.leading, 16)
     }
 }
 
 struct Card_Previews: PreviewProvider {
     static var previews: some View {
-        Card(image: "foto5", plate: "Prato1")
+        Card(image: "foto5", plate: "Prato1", description: "", cardWidth: 150, cardHeight: 150)
     }
 }

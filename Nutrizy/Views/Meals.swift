@@ -93,49 +93,52 @@
 
 import SwiftUI
 
-struct Home: View {
+struct Meals: View {
     @State var texto: String = "text"
     var body: some View {
-        VStack {
-//            SearchBar()
-//            NavigationStack{
-//
-//            }
-                        
-            ScrollView{
-                SectionView(section: "Café da manhã")
-                SectionView(section: "Almoço")
-                SectionView(section: "Lanche")
-                //            .border(.green)
+        NavigationStack{
+            VStack {
+                //            SearchBar()
+                //            NavigationStack{
+                //
+                //            }
+                
+                ScrollView{
+                    SectionGenerateView(section: "Café da manhã")
+                    SectionGenerateView(section: "Almoço")
+                    SectionGenerateView(section: "Lanche")
+                    //            .border(.green)
+                }
+                .padding(.leading, 16)
+                //            .border(.red)
+                
+                //            HStack{
+                //                Image(systemName: "homekit")
+                //                Image(systemName: "homekit")
+                //                Image(systemName: "heart.fill")
+                //            }
+                //            .background(Color.white)
+                
+                Spacer()
+                
+                
+                
             }
-//            .border(.red)
+            .padding(.vertical)
             
-//            HStack{
-//                Image(systemName: "homekit")
-//                Image(systemName: "homekit")
-//                Image(systemName: "heart.fill")
-//            }
-//            .background(Color.white)
-            
-            Spacer()
-            
-            
+            .navigationBarTitle("NUTRIZY", displayMode: .inline)
+            .toolbarColorScheme(.dark, for: .navigationBar)
+            .toolbarBackground(Color(red: 0.250980, green: 0.211764, blue: 0.643137, opacity: 1.0) , for: .navigationBar)
+            .background(.background)
             
         }
-        .padding(.vertical)
-        
-        .navigationBarTitle("NUTRIZY", displayMode: .inline)
-        .toolbarColorScheme(.dark, for: .navigationBar)
-        .toolbarBackground(Color(red: 0.250980, green: 0.211764, blue: 0.643137, opacity: 1.0) , for: .navigationBar)
-        .background(.background)
-        
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         
-        Home()
+        Meals()
         
     }
 }
