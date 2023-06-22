@@ -14,7 +14,7 @@ struct SearchView: View {
             Text("")
                 .searchable(text: $texto)
         }
-    }
+    }   
 }
 
 struct SearchView_Previews: PreviewProvider {
